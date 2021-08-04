@@ -21,7 +21,11 @@ n = the number of simulation
 
 
 def american_option_lsm(payoff, s0, k, r, dt, sig, m, n):
+    
+    # ===========================================================================================
     # BSM Model with Least Squares Monte Carlo
+    # Reference article: Valuing American Options by Simulation: A Simple Least-Squares Approach
+    # ===========================================================================================
 
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
