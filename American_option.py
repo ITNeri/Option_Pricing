@@ -1,8 +1,11 @@
+#-*-conding:utf-8-*-
+
 from math import exp, sqrt
 import numpy as np
 import random
 import pandas as pd
 import statsmodels.api as sm
+
 
 '''
 Parameters:
