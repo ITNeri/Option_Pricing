@@ -1,3 +1,5 @@
+#-*-conding:utf-8-*-
+
 import math
 from scipy.stats.distributions import norm
 import random
