@@ -7,8 +7,11 @@ import numpy as np
 
 
 def bsm_barrier_option(k, s, h, t, r, sig, rebate, payoff, n, oi):
+    # ================================================================================================
     # equations from the complete guide to option pricing formulas, second edition. pp.125-126
     # author and year: Espen Gaarder Haug (2018)
+    # ================================================================================================
+    
     """
     Parameters:
     k = strike price
