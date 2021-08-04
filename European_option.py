@@ -1,3 +1,5 @@
+#-*-conding:utf-8-*-
+
 import numpy as np
 from math import exp, sqrt, log
 import random
