@@ -1,11 +1,26 @@
 # Option_Pricing
-American, Asian, European and barrier option pricing
+American, Asian, European and barrier option pricing based on BSM model or Monte Carlo simulation
 
 ## Content
-1. American option: BSM Model with Least Squares Monte Carlo
-2. Asian option: Monte Carlo simulation
-3. European option: BSM Model and Monte Carlo simulation
-4. Barrier option: BSM Model and Monte Carlo simulation
+1. American option:  
+(1) BSM Model with Least Squares Monte Carlo:  
+   '<from American_option import american_option_lsm>'
+            
+2. Asian option:  
+  (1) Monte Carlo simulation  
+  '<from Asian_option import asian_option_mc>'
+  
+3. European option:   
+  (1) BSM Model  
+  '<from European_option import black_scholes_model>'  
+  (2) Monte Carlo simulation  
+  '<from European_option import monte_carlo_simulation>'
+  
+4. Barrier option:  
+  (1)BSM Model  
+  '<from barrier_option import bsm_barrier_option>'  
+  (2) Monte Carlo simulation  
+  '<from barrier_option import mc_barrier_option>'
 
 
 ## Reference list
